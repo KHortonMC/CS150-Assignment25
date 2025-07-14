@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build Capstone",
+            "label": "Build Assignment25",
             "type": "cppbuild",
             "command": "/usr/bin/g++",
             "args": [

@@ -3,7 +3,7 @@
     "configurations": [
         
         {
-            "name": "Run Capstone",
+            "name": "Run Assignment25",
             "type": "cppdbg",
             "request": "launch",
             "program": "${workspaceFolder}/main",
@@ -20,7 +20,7 @@
                     "ignoreFailures": true
                 }
             ],
-            "preLaunchTask": "Build Capstone"
+            "preLaunchTask": "Build Assignment25"
         }
     ]
 }
