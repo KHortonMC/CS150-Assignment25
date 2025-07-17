@@ -10,21 +10,19 @@ int main() {
     // RaspberryPi* model5 = new RaspberryPi("5 Model 8GB", 5, 80.00, "Raspbian");
     // RaspberryPi* model4 = new RaspberryPi("4 Model B", 5, 45.00, "Raspbian");
 
-    //vector<OpenSourceHardware> inventory;
+    // vector<OpenSourceHardware*> inventory;
 
-    // inventory.push_back(*nano);
-    // inventory.push_back(*uno3);
-    // inventory.push_back(*model5);
-    // inventory.push_back(*model4);
+    // inventory.push_back(nano);
+    // inventory.push_back(uno3);
+    // inventory.push_back(model5);
+    // inventory.push_back(model4);
 
-    // for (OpenSourceHardware osh : inventory) {
-    //     cout << osh << "\n";
+    // for (OpenSourceHardware* osh : inventory) {
+    //     cout << *osh << "\n";
     // }
 
-    // for (int i = 0; i < inventory.size(); i++) {
-    //     // recover memory!
-    //     delete inventory[i];
-    //     inventory[i] = NULL;
+    // for (OpenSourceHardware* osh : inventory) {
+    //     delete osh;
     // }
 
     return 0;
